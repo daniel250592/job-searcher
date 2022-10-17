@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="job-searcher" />
+        <module name="data-agregator" />
+        <module name="data-normalizer" />
+        <module name="data-aggregator" />
+        <module name="eureka" />
+        <module name="adata-aggregator" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="adata-aggregator" target="11" />
+      <module name="data-agregator" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="adata-aggregator" options="-parameters" />
+      <module name="data-aggregator" options="-parameters" />
+      <module name="data-agregator" options="-parameters" />
+      <module name="data-normalizer" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="job-searcher" options="-parameters" />
+    </option>
+  </component>
+</project>
