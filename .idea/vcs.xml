@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/data-aggregator" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/data-agregator" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/data-normalizer" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/job-searcher" vcs="Git" />
   </component>
 </project>
